@@ -1,14 +1,3 @@
 #this is for github project pages, not the username repository
 baseurl: /jekyllparty
-name: jekyllparty
-description: My First Jekyll Website
 
-author:
-  name: Emma Sherwood-Forbes
-  email: emmasf@gmail.com
-  github: emmasf
-  twitter: sherwoodforbes
-  
-permalink: pretty
-future: true #default
-show_drafts:false #defalut
