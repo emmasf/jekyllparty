@@ -5,12 +5,14 @@ title: Home Sweet Home
 
 <section class="list postlist">
   <h1>Blurg Posts</h1>
-  {% for post in site.posts %} <!- This is Liquid. Looping or variables. Documented on the liquid site duh. This is gonna be a loop.->
+  
+  {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
     <article>
       <time>{{ post.date | date_to_string }}</time>
       <h2>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </h2>
     </article>
   {% endfor %} <!- And this is the loop closing->
+  
 </section>
