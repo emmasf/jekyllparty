@@ -5,7 +5,7 @@ date: 2014-04-16 18:27:00
 
 #Hello World
 
-This is Emma speaking. Why do we still say "speaking" (or "say" for that matter)
+This is Emma speaking. Why do we still say "speaking" (or "say" for that matter) when we are typing?
 
 [Google!](http://google.com)
 This is my cat: 
