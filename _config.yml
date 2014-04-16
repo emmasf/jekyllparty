@@ -1,4 +1,5 @@
-#myfirstyamlfile
+#this is for github project pages, not the username repository
+baseurl: /jekyllparty
 name: jekyllparty
 description: My First Jekyll Website
 
