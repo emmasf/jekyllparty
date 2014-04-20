@@ -1,3 +1,4 @@
 #this is for github project pages, not the username repository
 baseurl: /jekyllparty
+markdown: kramdown
 
