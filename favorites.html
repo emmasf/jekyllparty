@@ -1,0 +1,19 @@
+---
+layout: default
+title: Favorite Tings on the Internet
+---
+
+<section class="list postlist">
+  <h1>Favorite things on the Internet</h1>
+  
+  {% for post in site.favs %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
+    <article>
+      <time>{{ post.date | date_to_string }}</time>
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </h2>
+      <img src="{{ post.img }}">
+    </article>
+  {% endfor %} <!- And this is the loop closing->
+  
+</section>
