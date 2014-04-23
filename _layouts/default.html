@@ -33,6 +33,12 @@
       {% endfor %}   
     </ul>
     
+    <ul>  
+      {% for page in site.pages %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+      {% endfor %}   
+    </ul>
+    
     {{ content }}
     
     </div> <!-- End Container -->
