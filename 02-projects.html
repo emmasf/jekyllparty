@@ -6,18 +6,57 @@ permalink: projects.html
 ---
 
 <section class="list postlist col-sm-8 blog-main">
-  <h1>All Project Posts</h1>
+  <h1>Class Projects</h1>
   
-  {% for post in site.posts %} 
-    {% if post.categories contains "projects" %}
-      <article class="post-link">
-        <time>{{ post.date | date_to_string }}</time>
+<!--
+  <article class="post-link">
+    <h2>
+      <a href="{{ site.baseurl }}/projects/enoch-pratt/" title="Enoch Pratt">Enoch Pratt Free Library: Redesign</a>
+    </h2>
+    <p></p>
+    <time class="fat-time">Jan&ndash;Feb, 2014</time>    
+  </article>
+  
+  <article class="post-link">
+    <h2>
+      <a href="{{ site.baseurl }}/projects/api-weather/" title="Enoch Pratt">Enoch Pratt Free Library: Redesign</a>
+    </h2>
+    <time class="fat-time">Mar&ndash;Apr, 2014</time>    
+  </article>
+  
+  <article class="post-link">
+    <h2>
+      <a href="{{ site.baseurl }}/projects/meta/" title="Meta">This Very Site</a>
+    </h2>
+    <time class="fat-time">Jan&ndash;May, 2014</time>
+  </article>
+  
+  <article class="post-link">
+    <h2>
+      <a href="{{ site.baseurl }}/projects/thesis/" title="Thesis">Thesis &amp; Thesis Documentation Website</a>
+    </h2>
+    <time class="fat-time">Sep 2013&ndash;May, 2014</time>
+  </article>
+-->
+  
+  {% for post in site.posts %}
+  {% if post.categories contains "main-project" %}
+    <article class="post-link">
+      <div class="blog-header">
         <h2>
-          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
-        <div class="clear"></div>
-      </article>
-    {% endif %}
-  {% endfor %}
+        </div>
+      <time class="fat-time">{{ post.time }}</time>
+      <div class="post-content">
+        <p>{{ post.copy }}</p>
+        <img src="{{ post.imgsrc }}">
+      </div>
+    </article>
+  {% endif %}
+{% endfor %}
+
   
 </section>
+
+
