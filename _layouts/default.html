@@ -18,11 +18,19 @@
   <body>
     <div class="container">
     
+<!--
     <ul class="nav nav-tabs">
       <li><a href="index.html">I am Learning Things</a></li>
       <li><a href="progress.html">Progress</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="favorites.html">Favorite Things on the Internets</a></li>
+    </ul>
+-->
+    
+    <ul class="nav nav-tabs">  
+      {% for post in site.pages %}
+      <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+      {% endfor %}   
     </ul>
     
     {{ content }}
