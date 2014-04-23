@@ -10,5 +10,4 @@ categories:
 - website
 ---
 
-poop
 
