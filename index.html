@@ -5,20 +5,7 @@ name: I am Learning Things
 ---
 
 
-<section class="list postlist">
+<section class="list postlist col-sm-8 blog-main">
   <h1>My name is Emma Sherwood-Forbes and I am learning things.</h1> 
 </section>
 
-<section class="list postlist col-sm-8 blog-main">
-  <h1>But why is this nav different?</h1>
-  
-  {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
-    <article class="post-link">
-      <time>{{ post.date | date_to_string }}</time>
-      <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      </h2>
-    </article>
-  {% endfor %} <!- And this is the loop closing->
-  
-</section>
