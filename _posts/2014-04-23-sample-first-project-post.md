@@ -7,6 +7,6 @@ categories:
 - enoch-pratt
 ---
 
-# Enoch Pratt Post yo
+# Another Enoch Pratt Post
 
-This is a sample first project post, how exciting!
+This is a sample second project post, how exciting!

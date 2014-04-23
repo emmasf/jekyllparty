@@ -1,6 +1,6 @@
 ---
 title: Enoch Pratt Library Redesign
-layout: projects
+layout: project-page
 project: enoch-pratt
 ---
 
