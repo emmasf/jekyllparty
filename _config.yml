@@ -1,4 +1,7 @@
-#this is for github project pages, not the username repository
+# this is for github project pages, not the username repository
+# site: emmasf.github.io
+# baseurl: emmasf.github.io/jekyllparty
+
 baseurl: /jekyllparty
 markdown: kramdown
 
