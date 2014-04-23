@@ -5738,7 +5738,9 @@ article.post-link {
   min-height: 40px; }
   article.post-link img {
     width: 100%;
-    margin: 10px 0; }
+    margin: 10px 0;
+    background-color: aqua;
+    min-height: 10px; }
 
 time {
   padding-top: 13px;
