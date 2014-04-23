@@ -32,7 +32,7 @@ img {
   margin-top: 15px;
   }
   
-.blog-post {
+.post-link {
   padding-bottom: 60px;
   margin-bottom: 30px; 
   border-bottom: 3px solid $light-grey-accent;  
@@ -87,12 +87,4 @@ h4 {
   
   }
 
-
-article .post-link {
-  width: 100%;
-  background-color: aqua;
-  height: 20px;
-  clear: both;
-  }
-  
-  div.clear {  clear: both;}
+div.clear {  clear: both;}
