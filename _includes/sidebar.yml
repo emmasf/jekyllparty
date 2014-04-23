@@ -1,6 +1,5 @@
 <div class="col-sm-3 col-sm-offset-1 sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <h4>Learning Things</h4>
     <img src="{{ site.baseurl }}/img/about.png" alt="Learning things is a website made by Emma Sherwood-Forbes. It's devoted to projects and progress made in Ben Kutil's Advanced Web Design course at the Maryland Institute College of Arts in the Spring of 2014. It's published using the awesome GitHub Pages.">
     <div class="col-sm-5">
       <ol class="list-unstyled">
