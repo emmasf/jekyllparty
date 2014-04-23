@@ -24,7 +24,7 @@ name: Favorite Things on the Internet
   % endfor %
 -->
   
-    {% for post in site.posts %} 
+  {% for post in site.posts %} 
     {% if post.categories contains "projects" %}
       <article class="post-link">
         <time>{{ post.date | date_to_string }}</time>
