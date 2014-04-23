@@ -84,10 +84,14 @@ h4 {
   }
 
 
-.post-link {
+article.post-link {
   width: 100%;
   background-color: aqua;
+  height: 20px;
   clear: both;
+  
+  h2 {color:red;}
+  
   }
 
 
