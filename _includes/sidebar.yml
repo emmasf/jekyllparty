@@ -1,0 +1,20 @@
+<div class="col-sm-3 col-sm-offset-1 sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>Learning Things</h4>
+    <img src="img/about.png" alt="Learning things is a website made by Emma Sherwood-Forbes. It's devoted to projects and progress made in Ben Kutil's Advanced Web Design course at the Maryland Institute College of Arts in the Spring of 2014. It's published using the awesome GitHub Pages.">
+    <div class="col-sm-5">
+      <ol class="list-unstyled">
+        <li><a href="http://www.sherwoodandforbes.com" target="_blank" >Portfolio</a></li>
+        <li><a href="https://twitter.com/sherwoodforbes" target="_blank" >Twitter</a></li>
+        <li><a href="psyche.html" >Facebook</a></li>
+      </ol>
+      </div>
+    <div class="col-sm-5">
+      <ol class="list-unstyled">
+        <li><a href="https://github.com/emmasf" target="_blank" >Github</a></li>
+        <li><a href="psyche.html">LinkedIn</a></li>
+        <li><a href="psyche.html">Dribbble</a></li>
+      </ol>
+      </div>
+  </div>
+</div>
