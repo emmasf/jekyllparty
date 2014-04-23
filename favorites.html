@@ -4,11 +4,13 @@ title: Home Sweet Home
 ---
 
 
+<!--
   <ul class="nav nav-tabs">  
   {% for post in site.pages %}
     <li><a href="{{ page.url }}">{{ page.name }}</a></li>
     {% endfor %}   
     </ul>
+-->
 
 <!--
   <ul class="nav nav-tabs">
@@ -24,7 +26,7 @@ title: Home Sweet Home
   <h1>Favorites</h1>
   
   {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
-    <article>
+    <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
