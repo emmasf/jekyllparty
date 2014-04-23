@@ -4,4 +4,17 @@ title: Projects Main Page
 name: Projects Main Pager
 ---
 
-{{ content }}
+<section class="list postlist col-sm-8 blog-main">
+  <h1>Weekly Progress</h1>
+  
+  {% for post in site.posts %}
+    <article class="post-link">
+      <time>{{ post.date | date_to_string }}</time>
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </h2>
+            <div class="clear"></div>
+    </article>
+  {% endfor %}
+  
+</section>
