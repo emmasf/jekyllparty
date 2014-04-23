@@ -1,13 +1,13 @@
 ---
 layout: withnav
 title: Projects Main Page
-name: Projects Main Pager
+name: Projects
 ---
 
 <section class="list postlist col-sm-8 blog-main">
   <h1>Weekly Progress</h1>
   
-  {% for post in site.categories.[project-post] %} 
+  {% for post in site.categories.projects %} 
     <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
