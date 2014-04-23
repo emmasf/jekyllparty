@@ -43,11 +43,11 @@ permalink: projects.html
   {% if post.categories contains "main-project" %}
     <article class="post-link">
       <div class="blog-header">
+            <time class="fat-time">{{ post.time }}</time>
         <h2>
           <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
         </div>
-      <time class="fat-time">{{ post.time }}</time>
       <div class="post-content">
         <p>{{ post.copy }}</p>
         <img src="{{ post.imgsrc }}">
