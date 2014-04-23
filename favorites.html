@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullpost
 title: Favorites
 name: Favorite Things on the Internet
 ---
@@ -9,16 +9,23 @@ name: Favorite Things on the Internet
   
   {% for fav in favs %}
     <article class="post-link">
-      <time>{{ fav.date | date_to_string }}</time>
-      <h2>
-        <a href="{{ site.baseurl }}{{ fav.url }}" title="{{ fav.title }}">{{ fav.title }}</a>
-      </h2>
-      <div class="clear"></div>
+      <div class="blog-header">
+        <time>{{ fav.date | date_to_string }}</time>
+        <h2>
+          <a href="{{ site.baseurl }}{{ fav.url }}" title="{{ fav.title }}">{{ fav.title }}</a>
+        </h2>
+        </div>
+      <div class="post-content">
+        <p>{{ fav.copy }}</p>
+      <img src="{{ fav.imgsrc }}">
+      </div>
     </article>
   {% endfor %}
   
   Plz work :(
    
 </section>
+
+
 
 
