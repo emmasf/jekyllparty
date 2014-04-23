@@ -3,8 +3,18 @@ layout: default
 title: Home Sweet Home
 ---
 
+<section class="list">
+  <ul>
+    <li><a href="index.html">I am Learning Things</a></li>
+    <li><a href="progress.html">Progress</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li class="active"><a href="favorites.html">Favorite Things on the Internets</a></li>
+ </ul>  
+</section>
+
+
 <section class="list postlist">
-  <h1>Blorg Posts</h1>
+  <h1>Favorites</h1>
   
   {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
     <article>
@@ -16,3 +26,5 @@ title: Home Sweet Home
   {% endfor %} <!- And this is the loop closing->
   
 </section>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
