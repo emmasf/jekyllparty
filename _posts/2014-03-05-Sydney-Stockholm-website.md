@@ -7,4 +7,5 @@ sitesrc: http://www.sydneystockholm.com.au/
 copy: Cool video background for a studio site.
 categories:
 - favorites
+- website
 ---
