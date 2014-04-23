@@ -1,11 +1,12 @@
 ---
 layout: withnav
-title: Progress
-name: Weekly Progress
+title: Projects Main Page
+name: Projects
+permalink: projects.html
 ---
 
 <section class="list postlist col-sm-8 blog-main">
-  <h1>Weekly Progress</h1>
+  <h1>All Project Posts</h1>
   
   {% for post in site.posts %} 
     {% if post.categories contains "projects" %}
@@ -20,5 +21,3 @@ name: Weekly Progress
   {% endfor %}
   
 </section>
-
-
