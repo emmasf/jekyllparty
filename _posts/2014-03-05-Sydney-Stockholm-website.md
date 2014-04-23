@@ -7,6 +7,8 @@ categories:
 - website
 ---
 
+poop
+
 imgsrc: {{ site.baseurl }}/img/sydneystockholm.gif
 sitesrc: http://www.sydneystockholm.com.au/
 copy: Cool video background for a studio site.poop
