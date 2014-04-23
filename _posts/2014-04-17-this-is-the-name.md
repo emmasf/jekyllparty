@@ -2,7 +2,7 @@
 name: "Another post"
 date: 2014-04-17 18:27:00
 title: Post 02
-imgsrc: img/stagger.gif
+imgsrc: img/rueda.gif
 copy: Fun little web toy.
 ---
 
