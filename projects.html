@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: withnav
 title: Projects Main Page
 name: Projects Main Pager
 ---
@@ -7,7 +7,7 @@ name: Projects Main Pager
 <section class="list postlist col-sm-8 blog-main">
   <h1>Weekly Progress</h1>
   
-  {% for post in site.posts %}
+  {% for post in site.categories.[page.project] %} 
     <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
