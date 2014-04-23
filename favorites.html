@@ -7,7 +7,7 @@ name: Favorite Things on the Internet
 <section class="list postlist col-sm-8 blog-main">
   <h1>Favorites</h1>
   
-  {% for post in posts %}
+  {% for post in site.posts %}
     <article class="post-link">
       <div class="blog-header">
         <time>{{ post.date | date_to_string }}</time>
