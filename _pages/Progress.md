@@ -1,4 +1,4 @@
 ---
-name: "Progress"
+title: "Progress"
 url: progress.html
 ---

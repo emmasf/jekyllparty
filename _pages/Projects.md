@@ -1,4 +1,4 @@
 ---
-name: "Projects"
+title: "Projects"
 url: projects.html
 ---

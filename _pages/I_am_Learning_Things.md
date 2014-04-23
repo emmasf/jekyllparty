@@ -1,4 +1,4 @@
 ---
-name: "I am Learning Things"
+title: "I am Learning Things"
 url: index.html
 ---
