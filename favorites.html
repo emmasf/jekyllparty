@@ -10,6 +10,7 @@ name: Favorite Things on the Internet
     {% for post in site.posts %} 
       {% if post.categories contains "favorites" %}
         <article class="post-link">
+<!--
           <div class="blog-header">
             <time>{{ post.date | date_to_string }}</time>
             <h2>
@@ -20,10 +21,16 @@ name: Favorite Things on the Internet
             <p>{{ post.copy }}</p>
           <img src="{{ post.imgsrc }}">
           </div>
+-->
+          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </article>
         {% endif %}
     {% endfor %}
-  
+    
+    
+
+
+
    
 </section>
 
