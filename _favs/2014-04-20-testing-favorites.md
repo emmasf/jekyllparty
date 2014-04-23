@@ -1,11 +1,7 @@
 ---
-name: "My First Post"
+name: "My First Fav"
 date: 2014-04-20 16:20:00
+title: poop
 ---
 
-#This is the title
-
-This is Emma speaking. Why do we still say "speaking" (or "say" for that matter) when we are typing?
-
-This is my cat: 
-![my cat](../img/favorite_01.gif)
+#This is the title of an awesome fav, I hope
