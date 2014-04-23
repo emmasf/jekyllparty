@@ -7,7 +7,7 @@ name: Projects Main Pager
 <section class="list postlist col-sm-8 blog-main">
   <h1>Weekly Progress</h1>
   
-  {% for post in site.categories.[page.project] %} 
+  {% for post in site.categories.[projects] %} 
     <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
