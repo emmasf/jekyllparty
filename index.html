@@ -21,18 +21,8 @@ title: Home Sweet Home
 
 
 <section class="list postlist">
-  <h1>Favorites</h1>
-  
-  {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
-    <article>
-      <time>{{ post.date | date_to_string }}</time>
-      <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      </h2>
-    </article>
-  {% endfor %} <!- And this is the loop closing->
+  <h1>My name is Emma Sherwood-Forbes and I am learning things.</h1>
+
   
 </section>
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
