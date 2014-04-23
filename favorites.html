@@ -12,12 +12,12 @@ name: Favorite Things on the Internet
     <div class="blog-header">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
-        <a href="{{ sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
       </h2>
       </div>
     <div class="post-content">
       <p>{{ post.copy }}</p>
-      <img src="{{ imgsrc }}">
+      <img src="{{ post.imgsrc }}">
     </div>
   </article>
 {% endfor %}
