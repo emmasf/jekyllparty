@@ -1,6 +1,9 @@
 ---
 name: "My First Post"
 date: 2014-04-16 18:27:00
+title: Post 01
+imgurl: img/stagger.gif
+copy: Fun little web toy.
 ---
 
 #Hello World

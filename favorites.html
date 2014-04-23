@@ -7,17 +7,17 @@ name: Favorite Things on the Internet
 <section class="list postlist col-sm-8 blog-main">
   <h1>Favorites</h1>
   
-  {% for fav in favs %}
+  {% for post in posts %}
     <article class="post-link">
       <div class="blog-header">
-        <time>{{ fav.date | date_to_string }}</time>
+        <time>{{ post.date | date_to_string }}</time>
         <h2>
-          <a href="{{ site.baseurl }}{{ fav.url }}" title="{{ fav.title }}">{{ fav.title }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
         </div>
       <div class="post-content">
-        <p>{{ fav.copy }}</p>
-      <img src="{{ fav.imgsrc }}">
+        <p>{{ post.copy }}</p>
+      <img src="{{ post.imgsrc }}">
       </div>
     </article>
   {% endfor %}
