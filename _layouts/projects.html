@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="uno" role="main"> <!-- role is an accessibility bit. see more at a11yproject.com -->
+  {{ content }}
+</div>
+
+<div class="dos" role="complimentary">
+  {% for post in site.categories.[page.project] %} <!-- page is any top-level html page. -->
+  <!-- anything basic goes in where page or site is, as well as anything defined in the config file -->
+  <!-- this line above tells jekyll to find any posts in the site with the category of the project -->
+  
+    {% if forloop.first %}
+      <ul class="postlist">
+    {% endif %}
+    
+      <li class="post">
+        <a href="{{ sitye.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+
+  {% endfor %}
+</div>
+
+{% include nav-projects.html %}
