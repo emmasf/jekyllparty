@@ -12,12 +12,14 @@ permalink: projects.html
   {% if post.categories contains "main-project" %}
     <article class="post-link">
       <div class="blog-header">
-        <time class="fat-time">{{ post.time }}</time>
-        <h2>
-          <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
-        </h2>
-        <p>{{ post.copy }}</p>
-        <img class="thumb" src="{{ post.imgsrc }}">
+        <img class="thumb col-xs-3" src="{{ post.imgsrc }}">
+        <div class="col-xs-9">
+          <time class="fat-time">{{ post.time }}</time>
+          <h2>
+            <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+          </h2>
+          <p>{{ post.copy }}</p>
+          </div>
       </div>
     </article>
   {% endif %}
