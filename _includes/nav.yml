@@ -1,0 +1,11 @@
+---
+name: "Nav"
+title: poopnav
+---
+
+
+<ul class="nav nav-tabs">  
+  {% for page in site.pages %}
+  <li><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a></li>      
+  {% endfor %}   
+</ul>
