@@ -28,9 +28,9 @@ name: Favorite Things on the Internet
     {% if post.categories contains "projects" %}
       <article class="post-link">
         <time>{{ post.date | date_to_string }}</time>
-        <h1>
+        <h2>
           <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </h1>
+        </h2>
         <div class="clear"></div>
       </article>
     {% endif %}
