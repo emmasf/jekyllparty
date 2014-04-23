@@ -1,11 +1,13 @@
 ---
-name: "My First Post"
+layout: default
+title: sydneystockholm
 date: 2014-03-05
-title: www.sydneystockholm.com.au
-imgsrc: {{ site.baseurl }}/img/sydneystockholm.gif
-sitesrc: http://www.sydneystockholm.com.au/
-copy: Cool video background for a studio site.
 categories:
 - favorites
 - website
+name: "My First Post"
+
+imgsrc: {{ site.baseurl }}/img/sydneystockholm.gif
+sitesrc: http://www.sydneystockholm.com.au/
+copy: Cool video background for a studio site.
 ---
