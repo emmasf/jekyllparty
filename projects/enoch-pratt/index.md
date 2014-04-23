@@ -1,7 +1,7 @@
 ---
 title: Enoch Pratt Library Redesign
 layout: projects
-project: project-1
+project: enoch-pratt
 ---
 
 #Enoch Pratt Title

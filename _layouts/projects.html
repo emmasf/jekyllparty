@@ -7,7 +7,9 @@ layout: default
 </div>
 
 <div class="dos" role="complimentary">
-  {% for post in site.categories.[page.project] %} <!-- page is any top-level html page. -->
+  <!-- {% for post in site.categories.[page.project] %}  -->
+  {% for post in site.posts %} 
+  <!-- page is any top-level html page, project is whatever project key we give -->
   <!-- anything basic goes in where page or site is, as well as anything defined in the config file -->
   <!-- this line above tells jekyll to find any posts in the site with the category of the project -->
   
