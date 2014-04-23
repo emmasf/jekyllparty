@@ -17,7 +17,7 @@ name: Favorite Things on the Internet
     </article>
   {% endfor %}
   
-  Plz work:
+  Plz work {{
       <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
@@ -25,7 +25,8 @@ name: Favorite Things on the Internet
       </h2>
       <div class="clear"></div>
     </article>
-  
+   | strip_html }}
+   
 </section>
 
 
