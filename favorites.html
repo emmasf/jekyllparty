@@ -7,30 +7,21 @@ name: Favorite Things on the Internet
 <section class="list postlist col-sm-8 blog-main">
   <h1>Favorites</h1>
   
-    {% for post in site.posts %} 
-      {% if post.categories contains "favorites" %}
-        <article class="post-link">
-<!--
-          <div class="blog-header">
-            <time>{{ post.date | date_to_string }}</time>
-            <h2>
-              <a href="{{ post.siteurl }}" title="{{ post.title }}">{{ post.title }}</a>
-            </h2>
-            </div>
-          <div class="post-content">
-            <p>{{ post.copy }}</p>
-          <img src="{{ post.imgsrc }}">
-          </div>
--->
-          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </article>
-        {% endif %}
-    {% endfor %}
-    
-    
-
-
-
+  {% for post in site.posts %}
+    <article class="post-link">
+      <div class="blog-header">
+        <time>{{ post.date | date_to_string }}</time>
+        <h2>
+          <a href="{{ post.siteurl }}" title="{{ post.title }}">{{ post.title }}</a>
+        </h2>
+        </div>
+      <div class="post-content">
+        <p>{{ post.copy }}</p>
+      <img src="{{ post.imgsrc }}">
+      </div>
+    </article>
+  {% endfor %}
+  
    
 </section>
 
