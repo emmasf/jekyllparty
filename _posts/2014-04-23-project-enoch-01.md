@@ -1,10 +1,16 @@
 ---
-name: "My First Post"
-date: 2014-04-16 18:27:00
-title: Post 01
-imgsrc: img/stagger.gif
-copy: Fun little web toy.
+layout: project-page
+title: "Enoch Pratt 2nd Post"
+date: 2014-01-01
+categories:
+- projects
+- enoch-pratt
 ---
+
+# Another Enoch Pratt Post
+
+This is a sample second project post, how exciting!
+
 
 #Hello World
 
