@@ -7,7 +7,7 @@ name: Weekly Progress
 <section class="list postlist col-sm-8 blog-main">
   <h1>Weekly Progress</h1>
   
-  {% for post in site.posts %} <!- This is Liquid. Looping or variables. Docu. on the liquid site. This is a loop.->
+  {% for post in site.posts %}
     <article class="post-link">
       <time>{{ post.date | date_to_string }}</time>
       <h2>
@@ -15,7 +15,7 @@ name: Weekly Progress
       </h2>
             <div class="clear"></div>
     </article>
-  {% endfor %} <!- And this is the loop closing->
+  {% endfor %}
   
 </section>
 
