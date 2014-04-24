@@ -1,5 +1,5 @@
 ---
-layout: project-main
+layout: default
 title: "Enoch Pratt Free Library: Redesign"
 date: 2014-01-01
 sitesrc: "/jekyllparty/projects/enoch-pratt/"
