@@ -5738,17 +5738,14 @@ article.post-link {
   min-height: 40px; }
   article.post-link img {
     width: 100%;
-    margin: 10px 0;
-    /*
-        background-color: aqua;
-        min-height: 10px;
-    */ }
+    margin: 10px 0; }
+  article.post-link p {
+    clear: both; }
 
 time {
   padding-top: 13px;
   float: right;
-  color: #cccccc;
-  /* .clear {text-align: left; clear: both;} */ }
+  color: #cccccc; }
   @media screen and (max-width: 480px) {
     time {
       float: none;
@@ -5780,5 +5777,5 @@ h2 {
 h4 {
   text-transform: uppercase; }
 
-.clear {
+div.clear {
   clear: both; }
