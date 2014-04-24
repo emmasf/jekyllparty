@@ -5739,16 +5739,16 @@ article.post-link {
   article.post-link img {
     width: 100%;
     margin: 10px 0;
-    background-color: aqua;
-    min-height: 10px; }
+    /*
+        background-color: aqua;
+        min-height: 10px;
+    */ }
 
 time {
   padding-top: 13px;
   float: right;
-  color: #cccccc; }
-  time .clear {
-    text-align: left;
-    clear: both; }
+  color: #cccccc;
+  /* .clear {text-align: left; clear: both;} */ }
   @media screen and (max-width: 480px) {
     time {
       float: none;
