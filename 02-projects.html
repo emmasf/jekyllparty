@@ -11,14 +11,18 @@ permalink: projects.html
   {% for post in site.posts %}
   {% if post.categories contains "main-project" %}
     <article class="post-link">
-        <div class="col-xs-3"><img class="thumb" src="{{ post.imgsrc }}"></div>
+      <div class="blog-header">
+        <!--
+<div class="col-xs-3"><img class="thumb" src="{{ post.imgsrc }}"></div>
         <div class="col-xs-9">
-          <time class="clear">{{ post.time }}</time>
-          <h2 class="clear">
+-->
+          <time>{{ post.time }}</time>
+          <h2>
             <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
           </h2>
-          <p class="clear">{{ post.copy }}</p>
+          <p>{{ post.copy }}</p>
           </div>
+      </div>
     </article>
   {% endif %}
 {% endfor %}
