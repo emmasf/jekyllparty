@@ -8,8 +8,9 @@ layout: proj-sidebar
   </div>
 </section>
 
-<div class="dos" role="complimentary">
-  {% for post in site.categories.projects %} 
+<div class="dos" role="complimentary"> <!-- The bottom link with other blog posts on the subject -->
+<h4>Process Posts for this Project</h4>
+  {% for post in site.categories.[page.projects] %} 
   
     {% if forloop.first %}
       <ul class="postlist">
@@ -26,6 +27,5 @@ layout: proj-sidebar
   {% endfor %}
   
 </div>
-
 </section>
 
