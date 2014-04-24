@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: proj-sidebar
 title: "Enoch Pratt 2nd Post"
 date: 2014-01-01
 categories:

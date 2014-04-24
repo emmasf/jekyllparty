@@ -1,7 +1,13 @@
 ---
 title: Enoch Pratt Library Redesign
-layout: project-page
+layout: proj-sidebar
 project: enoch-pratt
 ---
 
-#This is the main Enoch Pratt page with links to all the posties
+#Enoch Pratt Free Library
+#Redesign
+
+This is a summary of the project.
+
+This is a pdf reader, I hope:
+![pdf file](http://www.placekitten.com/300/300)
