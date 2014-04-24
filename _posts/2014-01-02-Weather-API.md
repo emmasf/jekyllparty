@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project-main
 title: "Mapping the San Francisco Microclimates"
 date: 2014-01-02
 sitesrc: "/jekyllparty/projects/weather-api/"
