@@ -2,31 +2,5 @@
 layout: withnav
 ---
 
-<section class="list postlist col-sm-8 blog-main">
-  <div class="uno" role="main"> <!-- role is an accessibility bit. see more at a11yproject.com -->
-    {{ content }}
-  </div>
-</section>
-
-<div class="dos" role="complimentary">
-  {% for post in site.categories.projects %} 
-  
-    {% if forloop.first %}
-      <ul class="postlist">
-    {% endif %}
-    
-      <li class="post">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    
-    {% if forloop.last %}
-      </ul>
-    {% endif %}
-
-  {% endfor %}
-  
-</div>
-
-</section>
-
+{{ content }}
 {% include nav-projects.html %}
