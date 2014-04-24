@@ -5,7 +5,7 @@ project: enoch-pratt
 ---
 
 #Enoch Pratt Free Library
-#Redesign
+##Redesign
 
 This is a summary of the project.
 
