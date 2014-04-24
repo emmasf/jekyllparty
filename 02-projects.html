@@ -11,7 +11,6 @@ permalink: projects.html
   {% for post in site.posts %}
   {% if post.categories contains "main-project" %}
     <article class="post-link">
-      <div class="blog-header">
         <div class="col-xs-3"><img class="thumb" src="{{ post.imgsrc }}"></div>
         <div class="col-xs-9">
           <time class="clear">{{ post.time }}</time>
@@ -20,7 +19,6 @@ permalink: projects.html
           </h2>
           <p class="clear">{{ post.copy }}</p>
           </div>
-      </div>
     </article>
   {% endif %}
 {% endfor %}
