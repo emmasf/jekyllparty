@@ -42,8 +42,10 @@ article.post-link {
   img {
     width: 100%;
     margin: 10px 0;
+/*
     background-color: aqua;
     min-height: 10px;
+*/
     }  
   
   }
@@ -53,7 +55,7 @@ time {
   float: right;
   color: $light-grey-accent;
   
-  .clear {text-align: left; clear: both;}
+  /* .clear {text-align: left; clear: both;} */
   
   @media screen and (max-width: $screen-xs){
     float: none;  

@@ -12,16 +12,11 @@ permalink: projects.html
   {% if post.categories contains "main-project" %}
     <article class="post-link">
       <div class="blog-header">
-        <!--
-<div class="col-xs-3"><img class="thumb" src="{{ post.imgsrc }}"></div>
-        <div class="col-xs-9">
--->
-          <time>{{ post.time }}</time>
-          <h2>
-            <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
-          </h2>
-          <p>{{ post.copy }}</p>
-          </div>
+        <time>{{ post.time }}</time>
+        <h2>
+          <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.copy }}</p>
       </div>
     </article>
   {% endif %}
@@ -31,3 +26,7 @@ permalink: projects.html
 </section>
 
 
+        <!--
+<div class="col-xs-3"><img class="thumb" src="{{ post.imgsrc }}"></div>
+        <div class="col-xs-9">
+-->
